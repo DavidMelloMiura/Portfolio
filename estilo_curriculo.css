@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+body { margin: 0; padding: 0; height: 100%; font-family: 'Big Shoulders Display', cursive; }
+h1 { display: flex; justify-content: center;}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    filter: opacity(0.09);
+    z-index: -999;
+    
+    /* filter: grayscale(200%); */
+    /* filter: saturate(50%); */
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -999;
+    filter: opacity(0.09);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 0px 0%;
+    width: 100%;
+    margin-top: -15.7px;
+    padding-top: 0;
+}
+
+.nome {
+    display: flex;
+    cursor: pointer;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-top: 17px;
+    margin-left: 10px;
+    letter-spacing: 0.7px;
+}
+
+.nome, a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 1.3rem;
+    padding-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease 0s;
+    margin-left: auto;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.menu a::before {
+    content: "";
+    display: block;
+    background-color: coral;
+    height: 3.5px;
+    width: 0;
+    margin-bottom: 10px;
+    transition: all 0.2s ease 0s;
+}
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+
+
+/* =============== CONTEUDO =============== */
+
+main {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: aqua;
+    border: 1px solid rebeccapurple;
+}
+
+.conteudo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.conteudo p {
+    width: 18.5rem;
+    font-size: 0.7rem;
+    margin-top: 0px;
+}
+
+.dev {
+    display: flex;
+    flex-direction: column;
+    min-width: 47vw;
+    overflow: hidden;
+}
+
+
+
+/* ========== Linha do Tempo - FLEXBOX ========== */
+
+.linhasdotempo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.conteudoflex_experiencias {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    margin: auto;
+    width: 49vw;
+
+    /* padding: 2rem 0; */
+    /* border: 1px solid black; */
+}
+
+.conteudoflex_cursos {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    margin: auto;
+    width: 49vw;
+    padding: 2rem 0;
+
+    /* background-color: cadetblue; */
+}
+
+.empresa {
+    width: 48%;
+    min-height: 7rem;
+    text-align: right;
+    /* margin-bottom: 1rem; */
+      /* Espaçamento entre as experiencias */
+
+    /* background-color: darkgrey; */
+}
+
+.empresa:nth-child(odd) p{
+    text-align: right;
+}
+
+.empresa p {
+    margin-left: 1.2rem;
+    margin-right: 1.4rem;
+}
+
+.empresa h3 {
+    color: crimson;
+    margin: 1rem;
+}
+
+.empresa:nth-child(even) h3{
+    text-align: left;
+}
+
+.empresa:nth-child(even) p{
+    text-align: left;
+}
+
+
+/* DIV CENTRAL - LINHA*/
+.conteudoflex_experiencias .pontos {
+    position: absolute;
+    left: 47.5%;
+    width: 0.15rem;
+    height: 92%;
+    margin-bottom: 10rem;
+    background-color: crimson;
+}
+
+.conteudoflex_cursos .pontos {
+    position: absolute;
+    left: 47.5%;
+    width: 0.15rem;
+    height: 92%;
+    margin-bottom: 10rem;
+    background-color: crimson;
+}
+
+.pontos h1 {
+    position: relative;
+    top: -3rem;
+    margin-bottom: 2rem;
+}
+
+/* Pontos */
+.empresa::before {
+    content: '';
+    position: absolute;
+    left: 46.8%;
+    background-color: crimson;
+    width: 10px;
+    height: 10px;
+    border-radius: 1rem;
+    margin-top: 1.2rem;
+    box-shadow: 0 0 0 2px rgba(220, 20, 60, 50%);
+}
+
+.periodo {
+    display: flex;
+    width: 47.3%;
+    /* background-color: aquamarine; */
+}
+
+.periodo:nth-child(odd) {
+    justify-content: flex-end;
+}
+
+.periodo:nth-child(even) {
+    justify-content: flex-start;
+}
+
+.periodo h4 {
+    display: flex;
+    justify-content: center;
+    width: 57%;
+    height: 1.3rem;
+    border-radius: 1rem;
+    align-items: center;
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-right: 1.4rem;
+    background-color: crimson;
+    color: white;
+    box-shadow: 0 0 0 2px rgba(220, 20, 60,  50%);
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-bottom: 5rem;
+    /* background-color: beige; */
+}
+
+.perfil h1 {
+    margin: 0;
+}
+
+.perfil h3 {
+    margin: 0;
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    /* background-color: rgb(203, 203, 166); */
+}
+
+.idioma {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    /* background-color: rgb(203, 203, 166); */
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.hardskills {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width: 49%;
+
+    /* background-color: cadetblue; */
+}
+
+.hardskills h2 {
+    position: relative;
+    left: 25%;
+    top: 40%;
+    transform: rotate(90deg);
+    font-size: 2rem;
+}
+
+
+.curriculo_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    /* background-color: cadetblue; */
+}
+
+
+#curriculos {
+    display: flex;
+    max-width: 70%;
+    max-height: 70%;
+    height: auto;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+.modelo {
+    display: flex;
+    justify-content: center;
+    width: 11rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.download {
+    display: flex;
+}
+
+.curriculo_img a {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+
+
+.contentskills {
+    display: flex;
+    width: 20rem;
+    
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    /* background-color: aqua; */
+}
+
+
+
+.contentskills li {
+    list-style: none;
+    line-height: 1.4;
+}
+
+
+.prog_content {
+    width: 13rem;
+    height: 0.8rem;
+    background-color: #bdbdbd;
+    border-radius: 1rem;
+    margin: 0.6rem 0;
+}
+
+#listahard {
+    position: absolute;
+    left: 9%;
+    text-align: right;
+}
+
+
+#java {
+    width: 60%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#springboot {
+    width: 55%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#angular {
+    width: 55%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#html5 {
+    width: 85%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#css3 {
+    width: 85%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#javascript {
+    width: 65%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#python {
+    width: 50%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#csharp {
+    width: 40%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#mysql {
+    width: 60%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#wordpress {
+    width: 80%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+
+#seo {
+    width: 50%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#photoshop {
+    width: 85%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#coreldraw {
+    width: 80%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#blender {
+    width: 67%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: fit-content;
+    height: 15rem;
+    top: 10%;
+    right: 0rem;
+    background-color: white;
+    padding: 0 0.39rem;
+    border-radius: 1rem 0 0 1rem;
+    border: 1px solid crimson;
+}
+
+.github-logo {
+    width: 2.5rem;
+    position: relative;
+}
+
+.linkedin-logo {
+    width: 2.5rem;
+    position: relative;
+}
+
+.instagram-logo {
+    width: 2.5rem;
+    position: relative;
+}
+
+
+
+
+
+/* ========== MENU HAMBURGUER ========== */
+
+.navbar {
+    width: 100vw;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    z-index: 9999;
+    
+    /* EFEITO VIDRO */
+    /* background-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1.2px solid rgba(255, 255, 255, 1); */
+    
+    transition: all ease-in-out 0.8s;
+}
+
+.change {
+    right: 0;
+}
+
+.nav-list {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-item {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 38px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 2px 0;
+    letter-spacing: 5px;
+}
+
+
+.nav-link::after,
+.nav-link::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: coral;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::after,
+.nav-link:hover::before {
+    transform: scaleX(1);
+}
+
+
+#hamburguer-menu {
+    width: 2.3rem;
+    height: 1.83rem;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: coral;
+    border-radius: 3px;
+    transition: all .8s;
+    z-index: 999;
+}
+
+.change .line1 {
+    transform: rotate(-405deg) translate(-8px, 9px);
+}
+
+.change .line2 {
+    transform: translate(6rem);
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: rotate(405deg) translate(-8px, -10px);;
+}
+
+
+
+/* ========== MOBILE VERSION ========== */
+
+@media (max-width: 900px) {
+
+    .menu li{
+        font-size: 0.9rem;
+        padding: 0px 5px;
+        padding-right: 10px;
+    }
+
+    .imagem { min-width: 80vw; }
+
+    #hamburguer-menu { visibility: visible; }
+
+    .menu {
+        visibility: hidden;
+    }
+    
+
+    h1 { margin-left: 0; }
+
+    .conteudoflex_experiencias {
+        width: 100vw;
+    }
+
+    .conteudoflex_cursos {
+        width: 100vw;
+    }
+
+    .empresa {
+        height: 13rem;
+        margin-bottom: 2rem;
+    }
+
+    /* .periodo::before {
+        height: 31%;
+        left: 49%;
+    } */
+
+    .periodo h4 {
+        width: 70%;
+        margin-top: 0.9rem;
+    }
+
+
+    /* ============================== VER SE APAGA ============================== */
+    /* .linha {
+        height: 100vh;
+        margin-top: -4rem;
+        background-color: blueviolet;
+    } */
+
+
+    /* ====================================================================== */
+    .perfil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hardskills {
+        width: 100vw;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+    
+    .hardskills h2 {
+        margin-right: -7rem;
+        top: 13rem;
+    }
+
+    #listahard {
+        margin-left: -1.5rem;
+        letter-spacing: 1px;
+    }
+    
+    .curriculo_img {
+        width: 100vw;
+        margin-bottom: 2rem;
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        top: 570vh;
+        left: 23vw;
+        width: 50vw;
+        height: 7vh;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+}

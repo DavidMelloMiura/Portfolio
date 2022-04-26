@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+body { margin: 0; padding: 0; height: 100%; font-family: 'Big Shoulders Display', cursive; }
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -999;
+    
+
+    /* filter: grayscale(200%); */
+    /* filter: saturate(50%); */
+
+    /* border: 1px solid red; */
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -999;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 0px 0%;
+    width: 100%;
+    margin-top: -15.7px;
+    padding-top: 0;
+}
+
+.nome {
+    display: flex;
+    cursor: pointer;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-top: 17px;
+    margin-left: 10px;
+    letter-spacing: 0.7px;
+}
+
+.nome, a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 1.3rem;
+    padding-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease 0s;
+    margin-left: auto;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.menu a::before {
+    content: "";
+    display: block;
+    background-color: coral;
+    height: 3.5px;
+    width: 0;
+    margin-bottom: 10px;
+    transition: all 0.2s ease 0s;
+}
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+
+
+/* =============== CONTEUDO =============== */
+
+.conteudo {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    color: #333;
+    width: 99.8vw;
+    height: 91.4vh;
+    text-align: center;
+    overflow: hidden;
+    /* background-color: aquamarine; */
+}
+
+.conteudo h1 {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.conteudo p {
+    font-size: 2em;
+    margin-top: 0px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 20px 0 rgba(86, 92, 175, 0.27);
+    backdrop-filter: blur(18.5px);
+}
+
+.formulario input{
+    width: 50%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid crimson;
+    border-radius: 0.2rem;
+}
+
+.formulario input:hover {
+    outline: 1px solid red;
+    background-color: #fff2ed;
+}
+
+#btenviar {
+    background-color: coral;
+    border: 1px solid #f06837;
+    border-radius: 0.3rem;
+    width: 51%;
+    height: 3.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: fit-content;
+    height: 15rem;
+    top: 10%;
+    right: 0rem;
+    background-color: white;
+    padding: 0 0.39rem;
+    border-radius: 1rem 0 0 1rem;
+    border: 1px solid crimson;
+}
+
+.github-logo {
+    width: 2.5rem;
+    position: relative;
+}
+
+.linkedin-logo {
+    width: 2.5rem;
+    position: relative;
+}
+
+.instagram-logo {
+    width: 2.5rem;
+    position: relative;
+}
+
+
+
+
+/* ========== MENU HAMBURGUER ========== */
+
+.navbar {
+    width: 100vw;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    z-index: 9999;
+    
+    /* EFEITO VIDRO */
+    /* background-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1.2px solid rgba(255, 255, 255, 1); */
+    
+    transition: all ease-in-out 0.8s;
+}
+
+.change {
+    right: 0;
+}
+
+.nav-list {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-item {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 38px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 2px 0;
+    letter-spacing: 5px;
+}
+
+
+.nav-link::after,
+.nav-link::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: coral;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::after,
+.nav-link:hover::before {
+    transform: scaleX(1);
+}
+
+
+
+
+#hamburguer-menu {
+    width: 2.3rem;
+    height: 1.83rem;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: coral;
+    border-radius: 3px;
+    transition: all .8s;
+    z-index: 999;
+}
+
+.change .line1 {
+    transform: rotate(-405deg) translate(-8px, 9px);
+}
+
+.change .line2 {
+    transform: translate(6rem);
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: rotate(405deg) translate(-8px, -10px);;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+
+    .menu li{
+        font-size: 0.9rem;
+        padding: 0px 5px;
+        padding-right: 10px;
+    }
+
+    
+    #hamburguer-menu {
+        visibility: visible;
+    }
+    
+    .menu {
+        visibility: hidden;
+    }
+    
+    .conteudo {
+        overflow: visible;
+    }
+    
+    .imagem {
+       width: 100vw;
+       align-items: flex-start;
+       margin-top: 3rem;
+       height: fit-content;
+    }
+
+    #david {
+        width: 90%;
+    }
+
+    .descricao {
+        background-color: white;
+        width: 100vw;
+        height: fit-content;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .descricao p {
+        font-size: 1.5rem;
+    }
+
+    .form {
+        width: 90vw;
+    }
+
+    .formulario input {
+        width: 75%;
+    }
+
+    #btenviar {
+        width: 77%;
+    }
+ 
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        top: 100vh;
+        left: 23vw;
+        width: 50vw;
+        height: 7vh;
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+}
