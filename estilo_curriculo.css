@@ -393,7 +393,7 @@ main {
 
 
 .prog_content {
-    width: 13rem;
+    width: 18vw;
     height: 0.8rem;
     background-color: #bdbdbd;
     border-radius: 1rem;
@@ -707,15 +707,6 @@ main {
     }
 
 
-    /* ============================== VER SE APAGA ============================== */
-    /* .linha {
-        height: 100vh;
-        margin-top: -4rem;
-        background-color: blueviolet;
-    } */
-
-
-    /* ====================================================================== */
     .perfil {
         display: flex;
         flex-direction: column;
@@ -734,8 +725,12 @@ main {
     }
 
     #listahard {
-        margin-left: -1.5rem;
+        margin-left: -1.8rem;
         letter-spacing: 1px;
+    }
+
+    .prog_content {
+        width: 47vw;
     }
     
     .curriculo_img {
