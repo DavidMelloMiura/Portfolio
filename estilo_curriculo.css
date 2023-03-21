@@ -135,6 +135,7 @@ main {
 .linhasdotempo {
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
     width: 100%;
     height: 100%;
     /* background-color: aquamarine; */
@@ -148,6 +149,7 @@ main {
     font-size: 0.7rem;
     margin: auto;
     width: 49vw;
+    height: 100%;
 
     /* padding: 2rem 0; */
     /* border: 1px solid black; */
@@ -162,6 +164,7 @@ main {
     margin: auto;
     width: 49vw;
     padding: 2rem 0;
+    height: 100%;
 
     /* background-color: cadetblue; */
 }
@@ -208,6 +211,7 @@ main {
     margin-bottom: 10rem;
     background-color: crimson;
 }
+
 
 .conteudoflex_cursos .pontos {
     position: absolute;
@@ -372,17 +376,14 @@ main {
 }
 
 
-
 .contentskills {
     display: flex;
     width: 20rem;
-    
     justify-content: center;
     align-items: center;
     justify-items: center;
     /* background-color: aqua; */
 }
-
 
 
 .contentskills li {
@@ -448,6 +449,13 @@ main {
     border-radius: 1rem;
 }
 
+#nodejs {
+    width: 55%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
 #python {
     width: 50%;
     height: 0.8rem;
@@ -463,14 +471,14 @@ main {
 }
 
 #mysql {
-    width: 60%;
+    width: 50%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
 
 #wordpress {
-    width: 80%;
+    width: 75%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -485,26 +493,25 @@ main {
 }
 
 #photoshop {
-    width: 85%;
+    width: 75%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
 
 #coreldraw {
-    width: 80%;
+    width: 70%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
 
 #blender {
-    width: 67%;
+    width: 39%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
-
 
 
 .social {

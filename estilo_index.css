@@ -170,60 +170,67 @@ header {
     animation: animacao 3s linear infinite;
 }
 
-.java {
+.nodejs {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
+}
+
+.java {
+    width: 3rem;
+    position: relative;
+    margin-top: 3rem;
+    animation: animacao 3s linear infinite;
 }
 
 .springboot {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
-    animation: animacao 3s linear infinite;
+    animation: animacao 2s linear infinite;
 }
 
 .angular {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
-    animation: animacao 2s linear infinite;
+    animation: animacao 3s linear infinite;
 }
 
 .visualstudio {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
-    animation: animacao 3s linear infinite;
+    animation: animacao 2s linear infinite;
 }
 
 .figma {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
-    animation: animacao 2s linear infinite;;
+    animation: animacao 3s linear infinite;;
 }
 
 .github {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
-    animation: animacao 3s linear infinite;
+    animation: animacao 2s linear infinite;
 }
 
 .wordpress {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
-    animation: animacao 2s linear infinite;
+    animation: animacao 3s linear infinite;
 }
 
 .photoshop {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
-    animation: animacao 3s linear infinite;
+    animation: animacao 2s linear infinite;
 }
 
 @keyframes animacao {
