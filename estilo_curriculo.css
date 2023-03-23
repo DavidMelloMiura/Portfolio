@@ -94,6 +94,8 @@ main {
     display: flex;
     width: 100vw;
     flex-direction: column;
+    height: auto;
+    align-items: center;
 }
 
 .conteudo {
@@ -407,15 +409,18 @@ main {
 }
 
 
+
+/* ===== Hard Skills ===== */
+
 #java {
-    width: 60%;
+    width: 55%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
 
 #springboot {
-    width: 55%;
+    width: 50%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -463,15 +468,8 @@ main {
     border-radius: 1rem;
 }
 
-#csharp {
-    width: 40%;
-    height: 0.8rem;
-    background-color: crimson;
-    border-radius: 1rem;
-}
-
 #mysql {
-    width: 50%;
+    width: 35%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -513,22 +511,25 @@ main {
     border-radius: 1rem;
 }
 
+.social-content {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    border-radius: 1rem 0 0 1rem;
+    border: 1px solid crimson;
+    height: 15rem;
+    right: 0;
+    width: fit-content;
+    padding: 0 0.39rem;
+    
+}
 
 .social {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    width: fit-content;
-    height: 15rem;
-    top: 10%;
-    right: 0rem;
-    background-color: white;
-    padding: 0 0.39rem;
-    border-radius: 1rem 0 0 1rem;
-    border: 1px solid crimson;
+    justify-content: space-around;    
 }
+
 
 .github-logo {
     width: 2.5rem;
@@ -743,18 +744,25 @@ main {
         width: 100vw;
         margin-bottom: 2rem;
     }
-    .social {
+    
+    
+    .social-content {
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        flex-direction: row;
-        position: absolute;
-        top: 570vh;
-        left: 23vw;
+        justify-content: space-around;
+        bottom: 0;
         width: 50vw;
         height: 7vh;
         border-radius: 1rem 1rem 0 0;
+        position: relative;
+        
+        
+    }
+    
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;    
     }
 
 }
