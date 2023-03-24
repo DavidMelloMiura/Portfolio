@@ -173,6 +173,16 @@ main {
 
 .empresa {
     width: 48%;
+    min-height: 11.7rem;
+    text-align: right;
+    /* margin-bottom: 1rem; */
+      /* Espaçamento entre as experiencias */
+
+    /* background-color: darkgrey; */
+}
+
+.curso {
+    width: 48%;
     min-height: 7rem;
     text-align: right;
     /* margin-bottom: 1rem; */
@@ -190,7 +200,17 @@ main {
     margin-right: 1.4rem;
 }
 
+.curso p {
+    margin-left: 1.2rem;
+    margin-right: 1.4rem;
+}
+
 .empresa h3 {
+    color: crimson;
+    margin: 1rem;
+}
+
+.curso h3 {
     color: crimson;
     margin: 1rem;
 }
@@ -199,7 +219,15 @@ main {
     text-align: left;
 }
 
+.curso:nth-child(even) h3{
+    text-align: left;
+}
+
 .empresa:nth-child(even) p{
+    text-align: left;
+}
+
+.curso:nth-child(even) p{
     text-align: left;
 }
 
@@ -232,6 +260,18 @@ main {
 
 /* Pontos */
 .empresa::before {
+    content: '';
+    position: absolute;
+    left: 46.8%;
+    background-color: crimson;
+    width: 10px;
+    height: 10px;
+    border-radius: 1rem;
+    margin-top: 1.2rem;
+    box-shadow: 0 0 0 2px rgba(220, 20, 60, 50%);
+}
+
+.curso::before {
     content: '';
     position: absolute;
     left: 46.8%;
@@ -700,6 +740,11 @@ main {
 
     .empresa {
         height: 13rem;
+        margin-bottom: 2rem;
+    }
+    
+    .curso {
+        height: 1rem;
         margin-bottom: 2rem;
     }
 
