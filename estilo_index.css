@@ -142,12 +142,22 @@ header {
 
 
 .icons {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: absolute;
+    width: fit-content;
+    height: 10rem;
+    bottom: 18%;
+    left: 10%;
+}
+/* .icons {
     position: absolute;
     width: fit-content;
     height: 10rem;
     top: 26rem;
     left: 3.3rem;
-}
+} */
 
 .html {
     width: 3rem;
