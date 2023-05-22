@@ -123,6 +123,7 @@ header {
 .dev {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-width: 47vw;
     overflow: hidden;
     
@@ -142,11 +143,13 @@ header {
 
 
 .icons {
+    display: flex;
+    justify-self: flex-start;
     position: absolute;
-    width: fit-content;
+    /* width: fit-content; */
     height: 10rem;
     bottom: 13%;
-    left: 7%;
+    /* left: 7%; */
 }
 
 .icons img {
@@ -155,84 +158,84 @@ header {
 }
 
 
-.html {
+#html {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
-.css {
+#css {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
-.javascript {
+#javascript {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
-.nodejs {
+#nodejs {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
-.java {
+#java {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
-.springboot {
+#springboot {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
-.angular {
+#angular {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
-.visualstudio {
+#visualstudio {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
-.figma {
+#figma {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;;
 }
 
-.github {
+#github {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
-.wordpress {
+#wordpress {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
-.photoshop {
+#photoshop {
     width: 3rem;
     position: relative;
     margin-top: 3rem;
@@ -402,6 +405,10 @@ header {
 
 @media (max-width: 900px) {
 
+    .conteudo {
+        justify-items: center;
+    }
+
     .menu li{
         font-size: 0.9rem;
         padding: 0px 5px;
@@ -422,13 +429,20 @@ header {
 
     .icons {
         display: flex;
-        position: absolute;
+        justify-content: center;
         flex-wrap: wrap;
-        width: 70vw;
+        width: fit-content;
         height: fit-content;
-        top: 73%;
-        padding: 1rem 0;
-        margin-top: 1rem;
+        top: 67%;
+        padding: 2rem;
+        margin-top: 5rem;
+        
+        border: solid 1px red;
+    }
+    
+    .child {
+        flex: 1 0 5%;
+        height: auto;
     }
   
     .dev {
@@ -440,7 +454,7 @@ header {
     .imagem {
         height: fit-content;
         position: absolute;
-        top: 38%;
+        /* top: 38%; */
     }
 
     .social {

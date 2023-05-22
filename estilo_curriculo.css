@@ -713,7 +713,7 @@ main {
 
 @media (max-width: 900px) {
 
-    .menu li{
+    .menu li {
         font-size: 0.9rem;
         padding: 0px 5px;
         padding-right: 10px;
@@ -799,9 +799,7 @@ main {
         width: 50vw;
         height: 7vh;
         border-radius: 1rem 1rem 0 0;
-        position: relative;
-        
-        
+        position: relative; 
     }
     
     .social {
