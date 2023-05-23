@@ -262,7 +262,7 @@ main {
 .empresa::before {
     content: '';
     position: absolute;
-    left: 46.8%;
+    left: 46.54%;
     background-color: crimson;
     width: 10px;
     height: 10px;
@@ -274,7 +274,7 @@ main {
 .curso::before {
     content: '';
     position: absolute;
-    left: 46.8%;
+    left: 46.54%;
     background-color: crimson;
     width: 10px;
     height: 10px;
@@ -749,7 +749,7 @@ main {
     }
 
     .empresa {
-        height: 13rem;
+        height: 15rem;
         margin-bottom: 2rem;
     }
     
