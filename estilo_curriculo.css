@@ -334,7 +334,7 @@ main {
     align-items: flex-start;
     padding-left: 3rem;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     /* background-color: rgb(203, 203, 166); */
 }
@@ -775,7 +775,7 @@ main {
     }
 
     .contentskills {
-        margin-top: -80px;
+        margin-top: -90px;
     }
 
     .hardskills {
