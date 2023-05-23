@@ -424,7 +424,6 @@ main {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    margin-top: -50px;
 }
 
 
@@ -773,6 +772,10 @@ main {
     .perfil {
         display: flex;
         flex-direction: column;
+    }
+
+    .contentskills {
+        margin-top: -80px;
     }
 
     .hardskills {
