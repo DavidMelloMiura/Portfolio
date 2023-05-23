@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
-body { margin: 0; padding: 0; height: 100%; font-family: 'Big Shoulders Display', cursive; }
+body { margin: 0; padding: 0; height: 100%; font-family: 'Big Shoulders Display', cursive; overflow: hidden; }
 
 
 video {
@@ -137,24 +137,21 @@ header {
 
 #foto {
     width: 90%;
+    max-height: 90vh;
 }
-
-
-
 
 .icons {
     display: flex;
     justify-self: flex-start;
     position: absolute;
-    /* width: fit-content; */
     height: 10rem;
     bottom: 13%;
-    /* left: 7%; */
+    left: 7%;
+    flex-wrap: wrap;
 }
 
 .icons img {
     margin-left: 0.3rem;
-    
 }
 
 
@@ -426,9 +423,9 @@ header {
         width: fit-content;
         height: fit-content;
         top: 67%;
+        left: 9%;
         padding: 2rem;
-        margin-top: 5rem;
-        
+        margin-top: 5rem;  
     }
     
     .child {
@@ -466,4 +463,35 @@ header {
         margin-top: 3rem;
     }
     
+}
+
+@media (max-width: 1500px) {
+    
+    .icons {
+        left: 7%;
+    }
+
+    .child {
+        width: 2.3rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .icons {
+        left: 2%;
+        /* display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: fit-content;
+        height: fit-content;
+        top: 67%;
+        padding: 2rem;
+        margin-top: 5rem;   */
+        
+    }
+    
+    .child {
+        width: 2.3rem;
+    }
 }
