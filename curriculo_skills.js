@@ -5,21 +5,3 @@ hardskills.map(item => `<li> ${item} </li>`).join('');
 
 
 let softskills = ['', ]
-
- 
-
-
-
-// Criatividade
-// Empatia
-// Colaboração
-// Adaptação
-// Aprender a aprender
-// Organização
-// Planejamento
-// Desenvolvimento Pessoal
-// Dedicação
-// Flexibilidade
-// Trabalho em Equipe
-// Resiliência
-// Ética

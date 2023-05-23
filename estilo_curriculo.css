@@ -452,11 +452,21 @@ main {
 
 /* ===== Hard Skills ===== */
 
+@keyframes animacao {
+    from { width:0% }
+    /* to {  } */
+}
+
+.skillbar {
+    animation: animacao 2s ease-out;
+}
+
 #java {
     width: 55%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
+    
 }
 
 #springboot {
@@ -464,6 +474,7 @@ main {
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
+
 }
 
 #angular {
