@@ -159,87 +159,79 @@ header {
 
 
 #html {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
 #css {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
 #javascript {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
 #nodejs {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
 #java {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
 #springboot {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
 #angular {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
 #visualstudio {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
 #figma {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;;
 }
 
 #github {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
 #wordpress {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
 #photoshop {
-    width: 3rem;
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
+}
+
+.child {
+    width: 3rem;
 }
 
 @keyframes animacao {
@@ -442,7 +434,10 @@ header {
     .child {
         flex: 1 0 5%;
         height: auto;
+        width: 2.5rem;
     }
+    
+   
   
     .dev {
         height: fit-content;
