@@ -92,6 +92,14 @@ header {
 
 /* =============== CONTEUDO =============== */
 
+main {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
 .conteudo {
     /* position: relative; */
     display: flex;
@@ -188,22 +196,22 @@ header {
     transform: scale(1.1);
 }
 
-
+.social-content {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    border-radius: 1rem 0 0 1rem;
+    border: 1px solid crimson;
+    height: 15rem;
+    right: 0;
+    width: fit-content;
+    padding: 0 0.39rem;
+}
 
 .social {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    width: fit-content;
-    height: 15rem;
-    margin-top: 50rem;
-    right: 0rem;
-    background-color: white;
-    padding: 0 0.39rem;
-    border-radius: 1rem 0 0 1rem;
-    border: 1px solid crimson;
+    justify-content: space-around;    
 }
 
 .github-logo {
@@ -355,7 +363,7 @@ header {
         padding-right: 10px;
     }
 
-    
+
     #hamburguer-menu {
         visibility: visible;
     }
@@ -403,21 +411,37 @@ header {
         height: 38vh;
     }
 
-
-
-
-    .social {
+    .social-content {
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        flex-direction: row;
-        position: absolute;
-        top: 270vh;
-        left: 23vw;
+        justify-content: space-around;
+        bottom: 0;
         width: 50vw;
         height: 7vh;
         border-radius: 1rem 1rem 0 0;
+        position: relative; 
     }
+    
+    .social {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;    
+    }
+
+   
+
+    
+    
+    
+    
+
+
+
+  
+    
+
+
+    
 
 }

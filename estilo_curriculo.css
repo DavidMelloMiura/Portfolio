@@ -571,7 +571,6 @@ main {
     right: 0;
     width: fit-content;
     padding: 0 0.39rem;
-    
 }
 
 .social {
@@ -714,7 +713,7 @@ main {
 }
 
 .change .line3 {
-    transform: rotate(405deg) translate(-8px, -10px);;
+    transform: rotate(405deg) translate(-8px, -10px);
 }
 
 

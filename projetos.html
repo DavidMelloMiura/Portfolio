@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,8 @@
 
     <!-- Font Awesome - Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -25,7 +26,7 @@
             </div>
         </a>
 
-        
+
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -33,8 +34,8 @@
                 <li><a href="curriculo.html">Curriculo</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
                 <li><a href="contatos.html">Contatos</a></li>
-            </ul>    
-        </nav>   
+            </ul>
+        </nav>
     </header>
 
     <div class="container">
@@ -65,77 +66,98 @@
         </nav>
     </div>
 
+    <!-- ============================== CONTEUDO ============================== -->
+    <main>
+        <div class="conteudo">
+            <div class="titulo">
+                <h1>Projetos</h1>
+                <p>Projetos desenvolvidos para fins de estudo ou pratica <br>
+                    Adicionei apenas os projetos que possuem interfaces, todos os códigos fontes
+                    destes projetos estão no GitHub</p>
+            </div>
 
-    <div class="conteudo">
-        <div class="titulo">
-        <h1>Projetos</h1>
-        <p>Projetos desenvolvidos para fins de estudo ou pratica <br>
-            Adicionei apenas os projetos que possuem interfaces, todos os códigos fontes
-            destes projetos estão no GitHub</p>
+            <div class="containerProjetos">
+
+                <div class="card">
+                    <img src="img/hotelparaiso.jpg" id="imgHotelParaiso">
+                    <div class="tituloProjeto">
+                        <p>Hotel Paraíso &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                    </div>
+                    <a href="https://davidmellomiura.github.io/site-responsivo-flexbox/" target="_blank"
+                        class="view">Visualizar</a>
+                </div>
+
+                <div class="descricao">
+                    <p>Este projeto foi desenvolvido através de um tutorial para aprender FlexBox, conceito de CSS3 que
+                        visa estruturar o layout de forma Responsiva <br><br>
+                        HTML5 <br> CSS3 <br> JavaScript <br> Flexbox</p>
+                </div>
+
+            </div>
+
+
+            <div class="containerProjetos">
+
+                <div class="card">
+                    <img src="img/calculadoracampanhajs.jpg" id="imgHotelParaiso">
+                    <div class="tituloProjeto">
+                        <p>Calculadora de Alcance de Campanha</p>
+                    </div>
+                    <a href="https://davidmellomiura.github.io/Calculadora_Cap_Teste/" target="_blank"
+                        class="view">Visualizar</a>
+                </div>
+
+                <div class="descricao">
+                    <p>Desenvolvido para praticar Flexbox e JavaScript, trata-se de uma versão de um teste de
+                        programação para uma empresa que fiz em C#, desenvolvido para ser executado no terminal apenas.
+                        <br>
+                        Resolvi usar o exemplo para desenvolver essa nova versão Front End utilizando JavaScript para
+                        efetuar os calculos <br><br>
+                        HTML5 <br> CSS3 <br> Flexbox <br> JavaScript</p>
+                </div>
+
+            </div>
+
+            <div class="containerProjetos">
+
+                <div class="card">
+                    <img src="img/calculadoracampanhaspringboot.jpg" id="imgHotelParaiso">
+                    <div class="tituloProjeto">
+                        <p>Calculadora de Alcance de Campanha</p>
+                    </div>
+                    <a href="https://calculadora-campanha.herokuapp.com/" target="_blank" class="view">Visualizar</a>
+                </div>
+
+                <div class="descricao">
+                    <p>O mesmo exemplo da solução anterior, porém o projeto foi desenvolvido em Spring Boot com foco no
+                        Back End para poder fazer conexão com banco de dados. Utilizei o Banco de Dados H2 para teste,
+                        porém ele pode ser adaptado para outro banco de dados, alterando a classe de conexão <br><br>
+
+                        Java - Spring Boot <br> HTML5 <br> CSS3 <br> Flexbox <br> Banco de Dados H2</p>
+                </div>
+
+            </div>
+
+
         </div>
 
-        <div class="containerProjetos">
 
-            <div class="card">
-                <img src="img/hotelparaiso.jpg" id="imgHotelParaiso">
-                <div class="tituloProjeto"><p>Hotel Paraíso &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p></div>
-                <a href="https://davidmellomiura.github.io/site-responsivo-flexbox/" target="_blank" class="view">Visualizar</a>
-            </div>
-                
-            <div class="descricao">
-                <p>Este projeto foi desenvolvido através de um tutorial para aprender FlexBox, conceito de CSS3 que visa estruturar o layout de forma Responsiva <br><br>
-                HTML5 <br> CSS3 <br> JavaScript <br> Flexbox</p>
-            </div>
+        <div class="social-content">
+            <div class="social">
+                <a href="https://github.com/DavidMelloMiura" target="_blank"><img src="img/github.svg"
+                        class="github-logo"></a>
 
+                <a href="https://www.linkedin.com/in/david-miura" target="_blank"><img src="img/linkedin-logo.svg"
+                        class="linkedin-logo"></a>
+
+                <a href="https://www.instagram.com/davidmmiura" target="_blank"><img src="img/instagram-logo.svg"
+                        class="instagram-logo"></a>
+            </div>
         </div>
 
-
-        <div class="containerProjetos">
-
-            <div class="card">
-                <img src="img/calculadoracampanhajs.jpg" id="imgHotelParaiso">
-                <div class="tituloProjeto"><p>Calculadora de Alcance de Campanha</p></div>
-                <a href="https://davidmellomiura.github.io/Calculadora_Cap_Teste/" target="_blank" class="view">Visualizar</a>
-            </div>
-            
-            <div class="descricao">
-                <p>Desenvolvido para praticar Flexbox e JavaScript, trata-se de uma versão de um teste de programação para uma empresa que fiz em C#, desenvolvido para ser executado no terminal apenas. <br>
-                Resolvi usar o exemplo para desenvolver essa nova versão Front End utilizando JavaScript para efetuar os calculos <br><br>
-                HTML5 <br> CSS3 <br> Flexbox <br> JavaScript</p>
-            </div>
-
-        </div>
-        
-        <div class="containerProjetos">
-
-            <div class="card">
-                <img src="img/calculadoracampanhaspringboot.jpg" id="imgHotelParaiso">
-                <div class="tituloProjeto"><p>Calculadora de Alcance de Campanha</p></div>
-                <a href="https://calculadora-campanha.herokuapp.com/" target="_blank" class="view">Visualizar</a>
-            </div>
-            
-            <div class="descricao">
-                <p>O mesmo exemplo da solução anterior, porém  o projeto foi desenvolvido em Spring Boot com foco no Back End para poder fazer conexão com banco de dados. Utilizei o Banco de Dados H2 para teste, porém ele pode ser adaptado para outro banco de dados, alterando a classe de conexão <br><br>
-
-                Java - Spring Boot <br> HTML5 <br> CSS3 <br> Flexbox <br> Banco de Dados H2</p>
-            </div>
-
-        </div>
-
-
-    </div>
-
-
-    <div class="social">
-        <a href="https://github.com/DavidMelloMiura" target="_blank"><img src="img/github.svg" class="github-logo"></a>
-        
-        <a href="https://www.linkedin.com/in/david-miura" target="_blank"><img src="img/linkedin-logo.svg" class="linkedin-logo"></a>
-
-        <a href="https://www.instagram.com/davidmmiura" target="_blank"><img src="img/instagram-logo.svg" class="instagram-logo"></a>
-    </div>
-
-
+    </main>
 
     <script src="menu_script.js"></script>
 </body>
+
 </html>
