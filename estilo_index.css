@@ -126,7 +126,6 @@ header {
     align-items: center;
     min-width: 47vw;
     overflow: hidden;
-    
 }
 
 .imagem {
@@ -145,9 +144,13 @@ header {
     justify-self: flex-start;
     position: absolute;
     height: 10rem;
+    width: 30vw;
     bottom: 13%;
     left: 7%;
+    right: 50%;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .icons img {
@@ -191,19 +194,43 @@ header {
     animation: animacao 2s linear infinite;
 }
 
+#mongodb {
+    position: relative;
+    margin-top: 3rem;
+    animation: animacao 3s linear infinite;
+}
+
+#mysql {
+    position: relative;
+    margin-top: 3rem;
+    animation: animacao 2s linear infinite;
+}
+
 #angular {
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;
 }
 
-#visualstudio {
+#cobol {
     position: relative;
     margin-top: 3rem;
     animation: animacao 2s linear infinite;
 }
 
+#visualstudio {
+    position: relative;
+    margin-top: 3rem;
+    animation: animacao 3s linear infinite;
+}
+
 #figma {
+    position: relative;
+    margin-top: 3rem;
+    animation: animacao 2s linear infinite;;
+}
+
+#postman {
     position: relative;
     margin-top: 3rem;
     animation: animacao 3s linear infinite;;
@@ -424,8 +451,9 @@ header {
         height: fit-content;
         top: 67%;
         left: 9%;
+        right:2%;
         padding: 2rem;
-        margin-top: 5rem;  
+        margin-top: 5rem;
     }
     
     .child {

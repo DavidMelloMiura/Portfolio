@@ -519,7 +519,7 @@ main {
 }
 
 #mysql {
-    width: 35%;
+    width: 57%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -561,6 +561,27 @@ main {
     border-radius: 1rem;
 }
 
+#cobol {
+    width: 43%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#postman {
+    width: 70%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#mongoDB {
+    width: 50%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
 .social-content {
     display: flex;
     position: fixed;
@@ -578,7 +599,6 @@ main {
     flex-direction: column;
     justify-content: space-around;    
 }
-
 
 .github-logo {
     width: 2.5rem;
