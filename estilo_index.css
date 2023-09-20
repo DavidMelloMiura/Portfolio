@@ -452,8 +452,8 @@ header {
         top: 67%;
         left: 9%;
         right:2%;
-        padding: 2rem;
-        margin-top: 5rem;
+        padding: .2rem 1rem;
+        margin-top: 2rem;
     }
     
     .child {
@@ -488,7 +488,7 @@ header {
         width: 50vw;
         height: 7vh;
         border-radius: 1rem 1rem 0 0;
-        margin-top: 3rem;
+        margin-top: 4.28rem;
     }
     
 }
