@@ -9,7 +9,6 @@ let hardskills = [
     'Python',
     'MySQL',
     'WordPress',
-    'SEO',
     'Photoshop',
     'CorelDraw',
     'Blender',
