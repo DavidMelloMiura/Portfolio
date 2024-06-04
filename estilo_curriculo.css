@@ -477,7 +477,7 @@ main {
 }
 
 #angular {
-    width: 55%;
+    width: 65%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -512,14 +512,14 @@ main {
 }
 
 #python {
-    width: 50%;
+    width: 39%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
 
 #mysql {
-    width: 57%;
+    width: 45%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -527,14 +527,6 @@ main {
 
 #wordpress {
     width: 75%;
-    height: 0.8rem;
-    background-color: crimson;
-    border-radius: 1rem;
-}
-
-
-#seo {
-    width: 50%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -577,6 +569,13 @@ main {
 
 #mongoDB {
     width: 50%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
+#powerBi {
+    width: 35%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;

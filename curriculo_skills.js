@@ -14,7 +14,8 @@ let hardskills = [
     'Blender',
     'Cobol',
     'Postman',
-    'MongoDB'
+    'MongoDB',
+    'Power BI'
 ];
 
 document.getElementById('listahard').innerHTML = 
