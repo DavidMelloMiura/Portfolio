@@ -262,7 +262,7 @@ main {
 .empresa::before {
     content: '';
     position: absolute;
-    left: 46.54%;
+    left: 46.88%;
     background-color: crimson;
     width: 10px;
     height: 10px;
@@ -274,7 +274,7 @@ main {
 .curso::before {
     content: '';
     position: absolute;
-    left: 46.54%;
+    left: 46.88%;
     background-color: crimson;
     width: 10px;
     height: 10px;
@@ -776,10 +776,17 @@ main {
         margin-bottom: 2rem;
     }
 
-    /* .periodo::before {
-        height: 31%;
-        left: 49%;
-    } */
+
+
+    /* Pontos */
+    .empresa::before {
+        left: 46.54%;
+    }
+
+    .curso::before {
+        left: 46.54%;
+    }
+
 
     .periodo h4 {
         width: 70%;
