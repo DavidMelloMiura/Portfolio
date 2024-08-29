@@ -5,17 +5,19 @@ let hardskills = [
     'HTML5',
     'CSS3',
     'JavaScript',
+    'Postman',
     'Node JS',
     'Python',
     'MySQL',
+    'MongoDB',
     'WordPress',
     'Photoshop',
     'CorelDraw',
     'Blender',
-    'Cobol',
-    'Postman',
-    'MongoDB',
-    'Power BI'
+    // 'Cobol',
+    
+    
+    // 'Power BI'
 ];
 
 document.getElementById('listahard').innerHTML = 

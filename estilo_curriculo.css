@@ -477,7 +477,7 @@ main {
 }
 
 #angular {
-    width: 65%;
+    width: 55%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -505,28 +505,28 @@ main {
 }
 
 #nodejs {
-    width: 55%;
-    height: 0.8rem;
-    background-color: crimson;
-    border-radius: 1rem;
-}
-
-#python {
     width: 39%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
 
+#python {
+    width: 33%;
+    height: 0.8rem;
+    background-color: crimson;
+    border-radius: 1rem;
+}
+
 #mysql {
-    width: 45%;
+    width: 50%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
 }
 
 #wordpress {
-    width: 75%;
+    width: 53%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
@@ -568,7 +568,7 @@ main {
 }
 
 #mongoDB {
-    width: 50%;
+    width: 39%;
     height: 0.8rem;
     background-color: crimson;
     border-radius: 1rem;
